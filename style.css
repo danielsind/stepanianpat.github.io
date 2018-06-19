@@ -1,18 +1,3 @@
-
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 400;
-  src: url("font/quicksand.eot");
-  src: local("Quicksand Regular"), local("Quicksand-Regular"), url("font/quicksand.eot?#iefix") format("embedded-opentype"), url("font/quicksand.woff2") format("woff2"), url("font/quicksand.woff") format("woff"), url("font/quicksand.ttf") format("truetype"), url("font/quicksand.svg#Quicksand") format("svg");
-}
-body {
-  margin: 0;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-  color: #5a5959;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -21,6 +6,13 @@ body {
 }
 *::-moz-selection {
   background: #97e7ff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand';
+  font-size: 20px;
+  color: #5a5959;
 }
 
 img { 
@@ -225,11 +217,11 @@ a {
 }
 
 .website-info:before {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: -0.25em;
-    height: 100%;
-    content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  height: 100%;
+  content: '';
 }
 
 .centered {
@@ -341,7 +333,7 @@ a {
 
 
 <-- -->
-@media (max-width: 1050px)
+/*@media (max-width: 1050px)
 .work .project {
     width: 63%;
     padding: 4%;
@@ -349,7 +341,7 @@ a {
 
 @media (max-width: 1440px)
 .work .project {
-    width: 42%;
+    */width: 42%;
 }
 .work .project {
     width: 33%;
@@ -462,8 +454,6 @@ a {
     color: #ccc;
     font-size: 34px;
 }
-
-/*  Media Queries  */
 
 /*  Media Queries  */
 
