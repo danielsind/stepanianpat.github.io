@@ -333,7 +333,7 @@ a {
 
 
 <-- -->
-/*@media (max-width: 1050px)
+@media (max-width: 1050px)
 .work .project {
     width: 63%;
     padding: 4%;
@@ -341,7 +341,7 @@ a {
 
 @media (max-width: 1440px)
 .work .project {
-    */width: 42%;
+    width: 42%;
 }
 .work .project {
     width: 33%;
