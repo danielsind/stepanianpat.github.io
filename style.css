@@ -172,10 +172,20 @@ a {
     width: 38vw;
 
 }
+#profile-photo {
+  width: 18%;
+}
 
 #profile-photo img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
+}
+
+#profile-photo-mobile {
+  display: none;
+  width: 32%;
+  float: left;
+  margin: 15px 4% 0;
 }
 
 #portfolio-section {
