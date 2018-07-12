@@ -163,9 +163,10 @@ a {
     line-height: 1.5;
 }
 
-@media (max-width: 1050px)
+@media (max-width: 1050px) {
 #portfolio-section .project {
     width: 40%;
+	}
 }
 
 #portfolio-section .project {
@@ -192,7 +193,7 @@ a {
 	background-color: #fff;
 }
 
- mage-container {
+.image-container {
     position: relative;
 }
 
@@ -264,9 +265,10 @@ a {
     display: inline-block;
 }
 
-@media (max-width: 1050px)
+@media (max-width: 1050px) {
 .work-dates {
     width: 15%;
+	}
 }
 
 .work-dates {
@@ -343,16 +345,19 @@ a {
 
 
 <-- -->
-@media (max-width: 1050px)
+@media (max-width: 1050px) {
 .work .project {
     width: 63%;
     padding: 4%;
+	}
 }
 
-@media (max-width: 1440px)
+@media (max-width: 1440px){
 .work .project {
     width: 42%;
+	}
 }
+
 .work .project {
     width: 33%;
     margin: 0;
