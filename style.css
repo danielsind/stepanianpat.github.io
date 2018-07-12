@@ -23,7 +23,7 @@ img {
 #nav {
 	position: absolute;
     width: 100%;
-    height: auto;   /*This*/
+    height: 65px;   /*This*/
     padding-top: 2vh;
     text-align: center;
     background-color: #fff;
