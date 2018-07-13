@@ -495,7 +495,10 @@ a {
   }
 
   #profile-photo-mobile {
-    display: inline;
+   display: none;
+   width: 32%;
+   float: left;
+   margin: 15px 4% 0;
   }
 
   .work .work-icon, .work .work-dates {
