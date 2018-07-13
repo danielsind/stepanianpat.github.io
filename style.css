@@ -491,6 +491,7 @@ a {
 
   #profile-photo {
     display: none;
+	max-wdith:210px;  
   }
 
   #profile-photo-mobile {
