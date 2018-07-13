@@ -500,6 +500,11 @@ a {
    float: left;
    margin: 15px 4% 0;
   }
+  
+  #profile-photo-mobile {
+   display: inline;	
+  }
+	
 
   .work .work-icon, .work .work-dates {
     display: none;
