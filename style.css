@@ -34,7 +34,7 @@ img {
 	display: inline-block;
     height: 20px;
     margin: 0 15px 45px;
-    vertical-align: middle;
+    vertical-align: middle;`
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -254,6 +254,8 @@ a {
     vertical-align: middle;
     width: 75%;
 }
+
+
 
 .website-image {
     position: relative;
