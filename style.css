@@ -180,6 +180,7 @@ a {
 
  .image-container {
     position: relative;
+    height: 450px;
 }
 
 .image-container:hover .website-info, .image-container.hovering .website-info {
