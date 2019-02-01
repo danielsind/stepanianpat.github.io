@@ -344,6 +344,9 @@ a {
     border-radius: 50%;
     border-top-right-radius: 0;
 }
+.icon-container:not(.fade):after {
+    height: 120%;
+}
 
 .icon-container.fade:after {
     height: 90%;
