@@ -23,7 +23,7 @@ img {
 #nav {
 	position: absolute;
     width: 100%;
-    height: 85px;
+    height: 65px;   /*This*/
     padding-top: 2vh;
     text-align: center;
     background-color: #fff;
@@ -34,7 +34,7 @@ img {
 	display: inline-block;
     height: 20px;
     margin: 0 15px 45px;
-    vertical-align: middle;`
+    vertical-align: middle;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -60,6 +60,10 @@ a {
     display: inline;
     width: 120px;
     height: 150px;
+}
+
+#logo2 {
+    display: none;
 }
 
 #hi {
@@ -143,7 +147,7 @@ a {
 }
 
 #about {
-    width: 60%;
+    width: 100%;
     padding: 1.5%;
 }
 
@@ -180,12 +184,6 @@ a {
 
  .image-container {
     position: relative;
-    height: 450px;
-}
-
-.image-container:hover .website-info, .image-container.hovering .website-info {
-  visibility: visible;
-  opacity: 1;
 }
 
 .website-info {
@@ -207,34 +205,6 @@ a {
     transition: visibility 0.15s, opacity 0.15s ease-out;
 }
 
-.  {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  margin: 6px 0;
-  padding: 12px;
-  border-radius: 4px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-  background-color: #fff;
-  color: #5a5959;
-  font-size: 16px;
-  text-align: center;
-}
-
-.website-link {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    margin: 6px 0;
-    padding: 12px;
-    border-radius: 4px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    color: #5a5959;
-    font-size: 16px;
-    text-align: center; 
-}
-
 .website-link a{
     text-decoration: none;
     cursor: pointer;
@@ -244,15 +214,6 @@ a {
     -ms-transition: color 0.1s ease-in-out;
     -o-transition: color 0.1s ease-in-out;
     transition: color 0.1s ease-in-out;
-}
-
-.website-link > .icon {
-  margin-right: 13px;
-  font-size: 19px;
-}
-
-.website-link > .icon-export {
-  margin-right: 8px;
 }
 
 .website-info:before {
@@ -268,8 +229,6 @@ a {
     vertical-align: middle;
     width: 75%;
 }
-
-
 
 .website-image {
     position: relative;
@@ -536,20 +495,11 @@ a {
 
   #profile-photo {
     display: none;
-	max-wdith:210px;  
   }
 
   #profile-photo-mobile {
-   display: none;
-   width: 32%;
-   float: left;
-   margin: 15px 4% 0;
+    display: inline;
   }
-  
-  #profile-photo-mobile {
-   display: inline;	
-  }
-	
 
   .work .work-icon, .work .work-dates {
     display: none;
@@ -643,8 +593,8 @@ a {
   .employer-name, .title {
     font-size: 28px;
   }
-	
- .title {
+
+  .title {
     color: #5a5959;
     font-size: 30px;
     width: 100%;
@@ -670,3 +620,5 @@ a {
     margin: 0 5px;
   }
 }
+
+/* Smartphones (portrait and landscape) ----------- */
