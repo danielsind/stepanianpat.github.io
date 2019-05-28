@@ -255,6 +255,11 @@ a {
     border-radius: 4px 4px 0 0;
 }
 
+.image-container:hover .website-info, .image-container.hovering .website-info {
+	visibility: visible;
+	opacity: 1;
+}
+
 /*Experience Section
 */
 
