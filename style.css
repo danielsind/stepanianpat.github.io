@@ -186,7 +186,7 @@ a {
     position: relative;
 }
 
-..website-info {
+.website-info {
   position: absolute;
     top: 0;
     left: 0;
