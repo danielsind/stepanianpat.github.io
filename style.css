@@ -224,6 +224,7 @@ a {
 }
 
 .wesbite-info:hover {
+  visibility: visible;
   opacity: 1;
 }
 
