@@ -84,7 +84,7 @@ a {
 
 .arrow
 {
-  position: relative;
+  position: absolute;
   bottom: 11rem;
   left: 50%;
   margin-left:-20px;
